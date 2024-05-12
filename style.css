@@ -8,11 +8,14 @@
 }
 
 .grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 18px;
     padding: 50px;
     gap: 60px;
     display: grid;
-    grid-template-columns: 115px 115px 115px 115px 115px 115px;
+    grid-template-columns: 115px 115px 115px 115px 115px;
     grid-template-rows: 80px 80px 80px 80px 80px;
     font-family: "Poetsen One", sans-serif;
     font-weight: 350;
